@@ -1,0 +1,43 @@
+.corridor-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+
+  p {
+    color: white;
+  }
+}
+
+.corridor-movie-list {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+}
+
+.corridor-movie {
+  img {
+    width: calc(50vw - 30px);
+    border-radius: 3px;
+    aspect-ratio: 1263 / 2000;
+    object-fit: cover;
+  }
+}
+
+@media(min-width: 1024px) {
+  .corridor-container {
+    margin-top: 100px;
+  }
+
+  .corridor-movie {
+    img {
+      width: calc(20vw - 60px);
+      &:hover {
+        transition: all .2s;
+        scale: 1.03;
+      }
+    }
+  }
+}
