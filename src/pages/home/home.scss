@@ -13,6 +13,12 @@
     background-color: #353535;
     margin-left: -20px;
   }
+
+  .loading {
+    display: flex;
+    position: absolute;
+    color: white;
+  }
 }
 
 @media(min-width: 1024px) {

@@ -6,10 +6,15 @@ import PlayArrowRoundedIcon from '@mui/icons-material/PlayArrowRounded';
 import './main-movie.scss'
 import { trendingMovies } from '../../utils/data'
 import MovieRatings from '../movie-ratings/movie-ratings';
+import { Movie } from '../../pages/home/home'
 
-function MainMovie() {
+interface MainMovieProps {
+  movie: Movie
+}
 
-  const movie = trendingMovies[3]
+function MainMovie(props: MainMovieProps) {
+
+  const { movie } = props
 
   return (
     <div className={ 'main-movie-container' }>
