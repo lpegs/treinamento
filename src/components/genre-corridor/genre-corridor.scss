@@ -17,7 +17,7 @@
   }
 }
 
-.corridor-movie-list {
+.genre-corridor-movie-list {
   width: 100%;
   display: flex;
   gap: 20px;
@@ -29,9 +29,6 @@
     border-radius: 3px;
     aspect-ratio: 1263 / 2000;
     object-fit: cover;
-    &:hover {
-      cursor: pointer;
-    }
   }
 }
 
@@ -43,9 +40,10 @@
   .corridor-movie {
     img {
       width: calc(20vw - 60px);
-    }
-    &:hover {
-      transition: all .5s;
+      &:hover {
+        transition: all .2s;
+        scale: 1.03;
+      }
     }
   }
 }

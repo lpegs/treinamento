@@ -1,0 +1,14 @@
+{
+  "schemaPath": "schema.graphql",
+  "extensions": {
+    "endpoints": {
+      "Default Introspection Endpoint": {
+        "url": "http://localhost:5000/graphql",
+        "introspect": true,
+        "headers": {
+          "Versioning": "Apollo Client Frontend Production SP72"
+        }
+      }
+    }
+  }
+}

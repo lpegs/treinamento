@@ -1,0 +1,47 @@
+# This file was generated. Do not edit manually.
+
+schema {
+    query: Query
+    mutation: Mutation
+}
+
+type File {
+    name: String
+    url: String!
+}
+
+type Genre {
+    id: ID!
+    movies: [Movie!]!
+    title: String!
+}
+
+type Movie {
+    date: String
+    description: String
+    genreIds: [String!]!
+    genres: [Genre!]!
+    id: ID!
+    image: File
+    title: String!
+    type: String!
+}
+
+type Mutation {
+    createMovie(description: String!, genre: String!, image: FileInput, title: String!, type: String!, year: Float!): Movie!
+    populateDatabase: Boolean!
+    updateMovieType(id: ID!, type: String!): Movie!
+}
+
+type Query {
+    findAllGenres: [Genre!]!
+    movieByGenre(genre: String!): [Movie!]!
+    movieById(id: ID): Movie
+    movieByType(type: String!): [Movie!]!
+    movies: [Movie!]!
+}
+
+input FileInput {
+    name: String
+    url: String!
+}

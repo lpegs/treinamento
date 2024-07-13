@@ -1,19 +1,32 @@
+import './movie.scss'
 import React from 'react'
+import { useNavigate, useParams } from 'react-router-dom'
+import { useQuery } from '@apollo/client'
+import { movieQuery } from './queries'
+import { MovieQuery, MovieQueryVariables } from '../../types/MovieQuery'
 import GradeRoundedIcon from '@mui/icons-material/GradeRounded'
 import FavoriteRoundedIcon from '@mui/icons-material/FavoriteRounded'
 import ShareRoundedIcon from '@mui/icons-material/ShareRounded'
-import PlayArrowRoundedIcon from '@mui/icons-material/PlayArrowRounded';
-import './main-movie.scss'
-import MovieRatings from '../movie-ratings/movie-ratings';
-import { HomeQuery_movies } from '../../types/HomeQuery'
+import PlayArrowRoundedIcon from '@mui/icons-material/PlayArrowRounded'
+import MovieRatings from '../../components/movie-ratings/movie-ratings'
+import { CircularProgress } from '@mui/material'
 
-interface MainMovieProps {
-  movie: HomeQuery_movies
-}
+export default function Movie() {
+  const { id } = useParams()
+  const navigate = useNavigate()
 
-function MainMovie(props: MainMovieProps) {
+  const { data, loading } = useQuery<MovieQuery, MovieQueryVariables>(movieQuery, { variables: { id } })
 
-  const { movie } = props
+  if (!data || loading) {
+    return <CircularProgress />
+  }
+
+  const movie = data.movieById
+
+  if (!movie) {
+    navigate('/')
+    return null
+  }
 
   return (
     <div className={ 'main-movie-container' }>
@@ -26,7 +39,7 @@ function MainMovie(props: MainMovieProps) {
         </div>
       </div>
       <div className={ 'main-movie-details' }>
-      <h2>{ movie.title }</h2>
+        <h2>{ movie.title }</h2>
         <p className={ 'year' }>{ movie.date }</p>
         <p className={ 'description' }>{ movie.description }</p>
         <button className={ 'play-button mobile-hidden' }>
@@ -47,5 +60,3 @@ function MainMovie(props: MainMovieProps) {
     </div>
   )
 }
-
-export default MainMovie

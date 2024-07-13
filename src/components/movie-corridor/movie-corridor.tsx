@@ -1,9 +1,13 @@
-import React, { useState } from 'react'
-import { Movie } from '../../pages/home/home'
+import React from 'react'
 import './movie-corridor.scss'
+import { HomeQuery_movies } from '../../types/HomeQuery'
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
+import { corridorConfigs } from '../../utils/corridor'
+import { useNavigate } from 'react-router-dom'
 
 interface MovieCorridorProps {
-  movies: Movie[]
+  movies: HomeQuery_movies[]
   title: string
   customClass?: string
 }
@@ -12,19 +16,20 @@ function MovieCorridor(props: MovieCorridorProps) {
 
   const { movies, title, customClass } = props
 
+  const navigate = useNavigate()
+
   return (
     <div className={ `corridor-container ${ customClass }` }>
       <p>{ title }</p>
-      <div className={ 'corridor-movie-list desktop-hidden' }>
-        { movies.slice(0, 2).map((movie, index) => <div key={ index } className={ 'corridor-movie' }>
-          <img src={ movie.image } alt={ movie.title } />
+      <Carousel responsive={ corridorConfigs }
+                infinite={ true }
+                removeArrowOnDeviceType={ [ 'mobile', 'tablet' ] }
+                className={ 'corridor-movie-list' }
+      >
+        { movies.map((movie, index) => <div key={ index } className={ 'corridor-movie' }>
+          <img src={ movie.image?.url } alt={ movie.title } draggable={ false } onClick={ () => navigate(`/movie/${ movie.id }`) } />
         </div>) }
-      </div>
-      <div className={ 'corridor-movie-list mobile-hidden' }>
-        { movies.slice(0, 5).map((movie, index) => <div key={ index } className={ 'corridor-movie' }>
-          <img src={ movie.image } alt={ movie.title } />
-        </div>) }
-      </div>
+      </Carousel>
     </div>
   )
 }

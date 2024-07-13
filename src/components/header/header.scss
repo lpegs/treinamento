@@ -29,10 +29,20 @@
       align-items: center;
       gap: 30px;
 
-      p {
+      a {
         color: white;
         font-size: 14px;
+        text-decoration: none;
+
+        &:hover {
+          color: purple;
+        }
       }
     }
   }
+}
+
+.profile-dialog-container {
+  padding: 100px;
+  background-color: #1f1f1f;
 }

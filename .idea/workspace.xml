@@ -5,10 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56155f51-96c0-4bfd-a966-ed93e5aa1b35" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.graphqlconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codegen.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphql-schema.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/schema.graphql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/genre-corridor/genre-corridor.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/genre-corridor/genre-corridor.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/home/queries.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/movie/movie.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/movie/movie.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/movie/queries.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/series/queries.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/series/series.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/series/series.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/HomeQuery.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/MovieQuery.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/SeriesQuery.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/graphql-global-types.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/corridor.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main-movie/main-movie.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main-movie/main-movie.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/main-movie/main-movie.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main-movie/main-movie.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/movie-corridor/movie-corridor.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/movie-corridor/movie-corridor.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/movie-corridor/movie-corridor.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/movie-corridor/movie-corridor.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/home/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/home.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/home/home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/data.tsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,11 +78,15 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;ts.external.directory.path&quot;: &quot;/home/lpegs/projects/course/movie/node_modules/typescript/lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/server/routes" />
       <recent name="$PROJECT_DIR$/src/client" />
@@ -73,6 +106,15 @@
       <workItem from="1717817765226" duration="1253000" />
       <workItem from="1717846303466" duration="7249000" />
       <workItem from="1717858325941" duration="146000" />
+      <workItem from="1719659867164" duration="11477000" />
+      <workItem from="1719706272920" duration="1297000" />
+      <workItem from="1719923990859" duration="345000" />
+      <workItem from="1720134552967" duration="594000" />
+      <workItem from="1720183227515" duration="23000" />
+      <workItem from="1720195815629" duration="3266000" />
+      <workItem from="1720266049356" duration="7925000" />
+      <workItem from="1720445436680" duration="13000" />
+      <workItem from="1720870715160" duration="6397000" />
     </task>
     <servers />
   </component>

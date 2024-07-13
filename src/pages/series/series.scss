@@ -1,0 +1,13 @@
+.series-container {
+  display: flex;
+  padding: 20px 100px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f1f1f;
+  min-height: calc(100vh - 80px);
+}
+
+.series-corridor {
+  width: 100%;
+}
