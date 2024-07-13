@@ -5,39 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56155f51-96c0-4bfd-a966-ed93e5aa1b35" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.graphqlconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codegen.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphql-schema.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schema.graphql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/genre-corridor/genre-corridor.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/genre-corridor/genre-corridor.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/home/queries.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/movie/movie.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/movie/movie.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/movie/queries.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/series/queries.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/series/series.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/series/series.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/HomeQuery.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/MovieQuery.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/SeriesQuery.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/graphql-global-types.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/corridor.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main-movie/main-movie.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main-movie/main-movie.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main-movie/main-movie.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main-movie/main-movie.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/movie-corridor/movie-corridor.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/movie-corridor/movie-corridor.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/movie-corridor/movie-corridor.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/movie-corridor/movie-corridor.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/home.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/data.tsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +17,29 @@
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="new_route" />
+                    <option name="lastUsedInstant" value="1720879297" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1720879296" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -65,24 +56,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;20.11.0&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.11.30&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/lpegs/projects/course/movie-api&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/home/lpegs/projects/course/movie/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "new__route",
+    "javascript.nodejs.core.library.configured.version": "20.11.0",
+    "javascript.nodejs.core.library.typings.version": "20.11.30",
+    "last_opened_file_path": "/home/lpegs/projects/course/movie-api",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "ts.external.directory.path": "/home/lpegs/projects/course/movie/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components" />
