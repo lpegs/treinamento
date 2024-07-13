@@ -22,6 +22,8 @@ function Home() {
 
   const activeMovie = movies[Math.floor(Math.random() * movies.length)]
 
+  console.log('aaaaaaaaaaaaaaaaaaaaaa')
+
   return (
     <div className={ 'home-container' }>
       <MainMovie movie={ activeMovie } />
