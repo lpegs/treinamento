@@ -24,5 +24,9 @@ export const router = createBrowserRouter([
   {
     path: '/movie/:id',
     element: <Movie />
+  },
+  {
+    path: '/serie/:id',
+    element: <Movie />
   }
 ])
